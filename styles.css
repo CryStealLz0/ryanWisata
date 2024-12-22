@@ -1,0 +1,115 @@
+/* Reset dasar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 0.5rem 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Section destinasi */
+.section-destinasi,
+.section-galeri,
+.section-kontak {
+  padding: 2rem;
+  text-align: center;
+}
+
+.destinasi-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.destinasi-card {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+}
+
+.destinasi-card h3 {
+  margin-top: 0;
+  color: #4caf50;
+}
+
+/* Galeri Foto */
+.galeri-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.galeri-container img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+/* Form Kontak */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  color: #4caf50;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
